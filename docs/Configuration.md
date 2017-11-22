@@ -16,7 +16,7 @@ Options is an object with the following shape:
 
 ```js
 type Options = {
-  platform: 'ios' | 'android', // Current platform
+  platform: 'ios' | 'android' | 'windows', // Current platform
   dev: boolean, // Whether to build for development
   minify: boolean, // Whether to minify the bundle
   bundle: boolean, // Whether building the bundle for packaging

@@ -14,7 +14,7 @@ Example: `haul start --platform ios --dev false --minify true --port 3030`
 
 You can specify following parameters to configure the server:
 
-### `--platform <ios|android|all>`
+### `--platform <ios|android|windows|all>`
 
 Required parameter which configures the server to build the bundle for the specified platform. `all` will build the bundle for both `android` and `ios` and is slower.
 
@@ -42,7 +42,7 @@ Example: `haul bundle --platform android --bundle-output build/index.bundle --as
 
 You can specify following parameters to configure the bundle generation:
 
-### `--platform <ios|android>`
+### `--platform <ios|android|windows>`
 
 The platform to build the bundle for.
 
